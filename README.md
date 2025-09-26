@@ -1,7 +1,7 @@
 # Matter学习问答
 
 1. 在开发新的matter产品时，是谁来定义cluster？
-   答：标准Cluster由CSA统一定义和维护，参考文档[Matter Application Cluster Specification](https://csa-iot.org/wp-content/uploads/2023/10/Matter-1.2-Application-Cluster-Specification.pdf)。
+   答：标准Cluster由CSA统一定义和维护，参考文档[Matter Application Cluster Specification](./matter-1-4-2-adopted-application-cluster-specification.pdf)。
    自定义Cluster可以实现厂商特定功能，但是如果需要实现与其他厂商设备的互操作性就需要申请认证。
    扩展现有Cluster，通过标注`manufacturerCode`可以实现属性和命令中添加扩展字段
 
